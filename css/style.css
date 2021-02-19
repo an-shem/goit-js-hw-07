@@ -25,3 +25,13 @@
 #validation-input.invalid {
   border-color: #f44336;
 }
+
+/* Task-8 */
+#boxes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#boxes > div {
+  border: 1px solid black;
+}
