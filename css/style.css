@@ -1,0 +1,14 @@
+/* Task-3 */
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+#gallery > li {
+  width: 400px;
+  margin: 10px;
+}
+#gallery > li > img {
+  width: 100%;
+}
